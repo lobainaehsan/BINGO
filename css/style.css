@@ -1,0 +1,232 @@
+section{
+	font-family: 'Abel', sans-serif;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.padding{
+	padding: 10px 50px;
+}
+.navbar a{
+	color: white!important;
+	font-size:15px!important;
+}
+.dropdown-menu{
+	background-color: #343A40!important;
+}
+.carousel-caption h1{
+	font-size: 50px!important;
+}
+.carousel-caption button{
+	margin-bottom: 15%;
+	background-color: #28ABE3!important;
+	padding: 12px 40px!important;
+    border: none;
+    border-radius: 40px!important;
+}
+.title h2{
+    font-size: 35px;
+    color: #232323;
+}
+.title p{
+	color: #848484;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.border{
+	height: 2px;
+    margin: 20px auto 20px;
+    position: relative;
+    width: 80px;
+    background: #28ABE3;
+}
+.section{
+	padding: 70px 0;
+}
+.service-2 .service-item{
+	border: 1px solid #eee;
+    margin-bottom: 30px;
+    padding: 50px 20px;
+}
+.service-2 .service-item i{
+	font-size: 30px;
+    display: inline-block;
+    background: #28ABE3 none repeat scroll 0 0;
+    border-radius: 30px;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
+    color: white;
+    height: 55px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    width: 55px;
+}
+.service-item:hover{
+	box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
+}
+.service-2 .service-item:hover i{
+	color: #28ABE3;
+	background: #fff;
+    color: #28ABE3;
+}
+.about-2{
+	background: #F7F7F7;
+}
+.title h2{
+	 font-weight: 600;
+    font-size: 35px;
+    color: #232323;
+}
+.title p{
+	color: #848484;
+    width: 51%;
+    margin: 0 auto;
+}
+.about-2 .checklist li{
+	position: relative;
+    margin-bottom: 17px;
+    font-size: 15px;
+    color: #777;
+    list-style: none;
+}
+ .fa-check-square-o{
+	position: absolute;
+    margin-right: 12px;
+    margin-left: -45px;
+    opacity: 1;
+    padding: 2px 8px;
+    font-size: 20px;
+}
+.call-to-action{
+	padding: 100px 0;
+    background: url(../images/call-to-action.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.btn{
+	background-color: #28ABE3!important;
+	padding: 12px 40px!important;
+    border: none;
+    border-radius: 40px!important;
+}
+.counters-item {
+    padding-bottom: 30px;
+    color: #444;
+    position: relative
+}
+.counters-item i {
+    font-size: 40px;
+    display: inline-block;
+    color: #28ABE3;
+}
+.counters-item h3{
+	display: inline;
+    font-size: 35px;
+}
+.counters-item h5 {
+    font-size: 18px;
+    margin: 0;
+    color: #666;
+}
+.counters-item:before {
+    background: #e5e5e5;
+    content: "";
+    margin-top: -27.5px;
+    height: 55px;
+    width: 1px;
+    position: absolute;
+    right: -15px;
+    top: 50%;
+}
+.counters-item.kill-border:before {
+    background: none;
+}
+.blog {
+    padding-bottom: 110px;
+    padding-top: 70px;
+    background: #F6F6F6;
+}
+.card-text{
+	color: #757575;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.card-body a{
+	padding: 8px 23px!important;
+    margin: 15px 0!important;
+}
+.testimonial {
+    width: 100%;
+    background-image:url(../images/Untitled.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fa-comments{
+	font-size:60px!important; 
+	color:white;
+}
+.img{
+	width:140px;
+	height: 140px; 
+	border-radius:70px;
+}
+.blog-o{
+	background-color: #fff;
+    width: 20rem;
+    border-radius: 0 0 5px 5px;
+    padding: 30px 20px;
+    border: 1px solid silver;
+}
+.top-footer {
+    background-color: #222222;
+    border-top: 1px solid #404040;
+    padding: 100px 0 80px;
+}
+.top-footer h3 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.top-footer p {
+    font-size: 13px;
+    color: #bdbdbd;
+    line-height: 30px;
+    padding-right: 20px;
+}
+.top-footer li{
+	list-style: none;
+}
+.top-footer li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    transition: color .3s;
+    display: block;
+}
+.footer-bottom {
+    text-align: center;
+    background-color: #1b1b1b;
+    border-top: 1px solid #2c2c2c;
+    padding: 30px 0;
+}
+.footer-bottom h5 {
+    font-size: 12px;
+    line-height: 1px;
+    color: #888888;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    letter-spacing: 2px;
+}
+.footer-bottom h6 {
+    font-size: 11px;
+    line-height: 15px;
+    color: #888888;
+    margin:10px 0 0 0;
+    letter-spacing: 1px;
+}
